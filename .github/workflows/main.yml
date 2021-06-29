@@ -25,4 +25,4 @@ jobs:
         export_default_credentials: true
     - name: Deploy
       run: |-
-        gsutil -m rsync -R output gs://$GCS_BUCKET/
+        gsutil -m rsync -R output gs://mock-5c01f.appspot.com/
