@@ -3,7 +3,7 @@ name: Upload to GCP Bucket
 on:
   push:
     branches:
-    - master
+    - main
 
 env:
   GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
